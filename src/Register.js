@@ -18,6 +18,7 @@ class Register extends React.Component {
 
     setMembers([...members, newMember]);
     this.setState({ fn: "", ln: "", email: "" });
+    alert("Thanks !, Your account has been registered");
   };
 
   render() {
